@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AffleSplitify</string>
+    <string name="currency_string">I use INR as my currency</string>
+    <string name="change">Change</string>
 </resources>
