@@ -16,7 +16,7 @@ public interface  ShopDetailsDao {
 
     @Query("DELETE FROM shop_details")
     void deleteAll();
-//
-//    @Query("SELECT * from shop_details")
-//    MutableLiveData<List<Shop_Details>> getAllShopDetails();
+
+    @Query("SELECT * from shop_details")
+    MutableLiveData<List<Shop_Details>> getAllShopDetails();
 }

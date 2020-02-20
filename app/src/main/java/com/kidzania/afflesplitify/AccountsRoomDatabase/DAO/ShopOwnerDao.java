@@ -16,6 +16,6 @@ public interface ShopOwnerDao {
     @Query("DELETE FROM shop_owner")
     void deleteAll();
 
-//    @Query("SELECT * from shop_owner")
-//    MutableLiveData<List<Shop_Owner>> getAllShopOwner();
+    @Query("SELECT * from shop_owner")
+    MutableLiveData<List<Shop_Owner>> getAllShopOwner();
 }

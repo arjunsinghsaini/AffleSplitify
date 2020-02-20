@@ -16,7 +16,7 @@ public interface AccountsDao {
 
     @Query("DELETE FROM accounts")
     void deleteAll();
-//
-//    @Query("SELECT * from accounts")
-//    MutableLiveData<List<Accounts>> getAllAccounts();
+
+    @Query("SELECT * from accounts")
+    MutableLiveData<List<Accounts>> getAllAccounts();
 }
