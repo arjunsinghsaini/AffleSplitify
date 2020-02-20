@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">AffleSplitify</string>
+    <string name="currency_string">I use INR \u20B9 as my currency</string>
+    <string name="change">  Change</string>
+    <string name="emailplaceholder">Email</string>
+    <string name="phoneno">Phone number</string>
+    <string name="passwordplaceholder">Password</string>
+    <string name="resetpasswordheader">Reset your password</string>
+    <string name="resetpassworddescription">Enter your email address or phone number and we\'ll send you link to reset your password</string>
 </resources>
